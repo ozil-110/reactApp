@@ -4,7 +4,7 @@
 
 ## 效果图
 
-
+![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot.png)
 
 ## 技术栈
 
