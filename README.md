@@ -1,6 +1,6 @@
 # reactApp
 
-基于node,express,react,redux,immutableJs,mongodb,jwt的前后端spa同构示例项目。
+基于node，express，react，redux，immutableJs，mongodb，jwt的前后端spa同构示例项目
 
 ## 效果图
 
@@ -19,11 +19,11 @@
 
 ### 环境
 
-安装node,mongodb;配置webpack。
+安装node，mongodb；配置webpack
 
 ### 准备
 
-修改src/constant/config.js文件,指定自己的数据库地址，端口，数据库名;node服务器端口,ip;启动mongodb服务。
+修改src/constant/config.js文件，指定自己的数据库地址，端口，数据库名；node服务器端口，ip；启动mongodb服务
 
 
 ### 开发环境
