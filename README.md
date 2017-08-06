@@ -10,11 +10,12 @@
 - express
 - react
 - redux
+- react-router
 - immutableJs
 - mongodb
 - jwt token
 
-## start
+## 运行demo
 
 ### 环境
 
@@ -40,7 +41,7 @@ npm run run-dev-server
 npm run dev
 ```
 
-###生产环境
+### 生产环境
 
 ```js
 npm run start
