@@ -43,6 +43,8 @@ npm run dev
 
 ### 生产环境
 
+#### 运行
+
 ```js
 npm run start
 npm run build
