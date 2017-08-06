@@ -1,0 +1,27 @@
+html,body {
+    height: 100%;
+    width: 100%;
+    font-size: 14px;
+}
+.ant-row:hover{
+    background-color: #EDEDED;
+}
+
+.link:link {
+    color: black;
+}
+.link:visited {
+    color: grey;
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+.link:active {
+    color: red;
+}
+@media screen and (max-width: 500px) {
+    .ant-layout-sider {
+        display: none
+    }
+}
