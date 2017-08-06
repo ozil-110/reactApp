@@ -54,7 +54,11 @@ npm run start
 npm run build
 ```
 
-### 打开3000端口
+### 打开4000端口
+
+### 兼容性
+
+建议使用chrome，IE和firefox有兼容性问题
 
 ### 功能
 
