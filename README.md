@@ -43,7 +43,6 @@ npm run dev
 
 ### 生产环境
 
-#### 运行
 
 ```js
 npm run start
@@ -51,3 +50,14 @@ npm run build
 ```
 
 ### 打开3000端口
+
+### 功能
+
+<ul>
+    <li>token身份验证</li>
+    <li>个人中心</li>
+    <li>搜索用户文章</li>
+    <li>发表文章</li>
+    <li>评论点赞</li>
+    <li>获取分数排名</li>
+<ul>    
