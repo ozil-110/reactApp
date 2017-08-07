@@ -4,8 +4,8 @@
 
 ## 效果图
 
-![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot.png)
-![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot3.png)
+![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/VIDEO0010.mp4_1502088898.gif)
+![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/VIDEO0010.mp4_1502089018.gif)
 ![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot2.png)
 ![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot1.png)
 
