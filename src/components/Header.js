@@ -28,10 +28,7 @@ export default class Header extends BaseComponent {
         return (
             <div>
                 <Menu selectedKeys={[this.state.current]}  onClick={this.handleNavigator} mode="horizontal" style={{padding:'10px 30px 10px 71px',background:'#404040'}}>
-                    <Menu.Item key="logo"  style={{width:'12%'}}>
-                        <Link to="/"><img src=""/></Link>
-                    </Menu.Item>
-                    <Menu.Item key="search">
+                    <Menu.Item key="search" style={{border:'none'}}>
                         <Search
                             ref='search'
                             placeholder="搜索指定用户的文章"
@@ -39,15 +36,15 @@ export default class Header extends BaseComponent {
                             onSearch={value => this.handleSearch(value)}
                         />
                     </Menu.Item>
-                    <Menu.Item key="list">
+                    <Menu.Item key="list" style={{border:'none'}}>
                         <Link to="/"><div style={{color:'rgba(255,255,255,0.67)'}}>首页</div></Link>
                     </Menu.Item>
-                    <Menu.Item key="space" key="space">
+                    <Menu.Item key="space" key="space" style={{border:'none'}}>
                         <Link to="/space"><div style={{color:'rgba(255,255,255,0.67)'}}>个人中心</div></Link>
                     </Menu.Item>
                     {
                         user.name && (
-                            <Menu.Item key="publish">
+                            <Menu.Item key="publish" style={{border:'none'}}>
                                 <Link to="/publish"><div style={{color:'rgba(255,255,255,0.67)'}}>发表文章</div></Link>
                             </Menu.Item>
                         )
@@ -63,11 +60,11 @@ export default class Header extends BaseComponent {
                         )    
                     }
                     {
-                        !user.name && <Menu.Item><Link to="/Space"><div style={{color:'rgba(255,255,255,0.67)'}}>登录/注册</div></Link></Menu.Item>
+                        !user.name && <Menu.Item style={{border:'none'}}><Link to="/Space"><div style={{color:'rgba(255,255,255,0.67)'}}>登录/注册</div></Link></Menu.Item>
                     }
                     {
                         user.name && (
-                            <Menu.Item key="logout">
+                            <Menu.Item key="logout" style={{border:'none'}}>
                                 <div onClick={()=>logOut()} style={{color:'rgba(255,255,255,0.67)'}}>退出</div>
                             </Menu.Item>
                         )
