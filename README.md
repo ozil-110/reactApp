@@ -34,6 +34,7 @@
 推荐
 
 ```js
+git clone https://github.com/ozil-110/reactApp.git
 npm install -g cnpm --registry=https://registry.npm.taobao.org
 cnpm install
 ```
