@@ -4,6 +4,11 @@
 
 ## 效果图
 
+![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot.png)
+![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot3.png)
+![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot2.png)
+![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/Screenshot1.png)
+
 ## 技术栈
 
 - node
@@ -49,7 +54,11 @@ npm run start
 npm run build
 ```
 
-### 打开3000端口
+### 打开4000端口
+
+### 兼容性
+
+建议使用chrome，IE和firefox有兼容性问题
 
 ### 功能
 
