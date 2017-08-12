@@ -7,6 +7,12 @@
 ![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/VIDEO0010.mp4_1502088898.gif)
 ![img](https://github.com/ozil-110/reactApp/blob/master/assets/images/VIDEO0010.mp4_1502089018.gif)
 
+## 依赖
+
+- mongodb 3.6
+- webpack 2.2
+- node 7.7
+
 ## 技术栈
 
 - node
