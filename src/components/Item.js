@@ -95,6 +95,7 @@ class Item extends BaseComponent {
             
         })
     }
+    //点赞
     handleVote(){
         const {posts,params,user,dispatch} = this.props;
         
@@ -123,6 +124,7 @@ class Item extends BaseComponent {
         }
         
     }
+    //提交评论
     handleClick(e){
         const {params,user,dispatch} = this.props;
         const date = new Date();
