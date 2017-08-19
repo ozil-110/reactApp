@@ -29,12 +29,14 @@ class List extends BaseComponent {
     handleChange(nextAuthor){
         this.props.dispatch(selectAuthor(nextAuthor));
     }
+    //刷新
     handleRefreshClick(e) {
         e.preventDefault();
         const { dispatch, selectedAuthor } = this.props;
         dispatch(invalidatePosts(selectedAuthor));
         dispatch(fetchPostsIfNeeded(selectedAuthor));
     }
+    //详情
     handleShow(id){
         const {dispatch} = this.props;
         dispatch(fetchItem(id));
