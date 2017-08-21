@@ -24,6 +24,52 @@
 - mongodb
 - jwt token
 
+## 数据结构
+
+### 用户
+
+```js
+{
+    id,        //用户id
+    score,     //所得分数
+    password,  //密码
+    name,      //姓名
+    _v
+}
+```
+### 主题
+
+```js
+{
+    id,             //用户id
+    type,           //发表类型
+    time: {         //时间，包括年，天，小时，分，秒
+        minute,
+        day,
+        month,
+        year,
+        date
+    },
+    content,        //发表的内容
+    title,          //标题
+    author,         //作者
+    flag,           //标记
+    votes： [],          //点赞人姓名的数组
+    discussion: [   //评论
+        {
+            content,       //评论内容
+            author: {      //评论人，包括姓名，分数
+                name,
+                score
+            }
+            time           //评论时间
+        },
+        ...
+    ],
+    _v
+}
+```
+
 ## 运行demo
 
 ### 环境
